@@ -1,0 +1,148 @@
+.site-main .top .media {
+    position: absolute;;
+    width: 15em;
+    aspect-ratio: 1/1;
+    background-color: #fff;
+    margin: 2em;
+    padding: 0.5em;
+    border: 1px solid #000;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.5);
+}
+
+.site-main .top .content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-self: center;
+}
+
+.site-main .top .content h2, 
+.site-main .top .content p, 
+.site-main .top .content a {
+    text-shadow: #fff 1px 0 0.1em;
+    font-weight: bold;
+}
+
+.site-main .top .content .download {
+    margin: 0 auto;
+    margin-top: 1.5em;
+    width: fit-content;
+    padding: 1em 2em;
+    border-radius: 0.5em;
+    text-decoration: none;
+    color: #000;
+    background-color: #ccc;
+    font-size: 1em;
+}
+
+.site-main .middle > h2 {
+    padding-bottom: 0.5em;
+}
+
+.site-main .middle .flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+}
+
+.site-main .middle .flex-container > .general {
+    flex: 0 0 60%;
+}
+
+.site-main .middle .flex-container > .general > p {
+    text-indent: 2em;
+}
+
+.site-main .middle .flex-container > .general > blockquote {
+    font-style: italic;
+    font-size: 1.2em;
+    opacity: 0.6;
+}
+
+.site-main .middle .flex-container > .personal {
+    flex: 0 0 calc(40% - 2em);
+    font-size: 1.1em;
+    text-align: center;
+    border: 1px solid #eee;
+    border-radius: 0.3em;
+    padding-top: 0.5em;
+}
+
+.site-main .bottom > h2 {
+    flex: 1 0 100%;
+}
+
+.site-main .languages {
+    flex-basis: 35%;
+}
+
+.site-main .programming {
+    flex-basis: calc(65% - 2em);
+}
+
+.site-main .education {
+    flex-basis: 60%;
+}
+
+.site-main .qualities {
+    flex-basis: calc(40% - 2em);
+}
+
+.site-main .conclusion {
+    flex-basis: 100%;
+}
+
+.site-main .bottom .languages > h4,
+.site-main .bottom .programming > h4,
+.site-main .bottom .education > h4,
+.site-main .bottom .qualities > h4,
+.site-main .bottom .conclusion > h4 {
+    background-color: #eee;
+    color: #252525;
+    padding: 0.3em;
+    margin: 0.5em 0;
+    border-radius: 0.3em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.site-main .bottom .languages ul,
+.site-main .bottom .programming ul,
+.site-main .bottom .education ul,
+.site-main .bottom .qualities ul {
+    list-style-position: inside;
+    font-size: 1.2em;
+    margin-left: 2em;
+}
+
+.site-main .bottom .programming .ul-container {
+    display: flex;
+    gap: 3em;
+}
+
+.site-main .bottom .conclusion {
+    border-top: 1px solid #eee;
+}
+
+.site-main .bottom .conclusion p {
+    text-indent: 2em;
+}
+
+.site-main .bottom .conclusion a {
+    color: #eee;
+    font-weight: bold;
+}
+
+.site-main .bottom .languages:hover,
+.site-main .bottom .programming:hover,
+.site-main .bottom .education:hover, 
+.site-main .bottom .qualities:hover, 
+.site-main .bottom .conclusion:hover {
+
+    h4 {
+        background-color: #1985A1;
+        box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.5) inset;
+        transition: 0.3s ease-in;
+    }
+} 

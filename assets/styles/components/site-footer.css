@@ -1,0 +1,9 @@
+.site-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0;
+}
+
+.site-footer > p {
+    font-size: 1.2em;
+}

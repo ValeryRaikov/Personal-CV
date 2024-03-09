@@ -1,0 +1,13 @@
+.site-header .site-navbar {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.site-header .site-navbar .icon {
+    width: 3em;
+}
+
+.icon svg {
+    fill: #524951;
+}

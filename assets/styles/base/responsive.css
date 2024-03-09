@@ -1,0 +1,31 @@
+@media screen and (max-width: 800px) {
+    html {
+        font-size: 14px;
+    }
+
+    .site-header {
+        flex-wrap: wrap;
+    }
+
+    .site-header .site-title,
+    .site-header .site-navbar {
+        flex-basis: 100%;
+    }
+
+    .site-header .site-title {
+        text-align: center;
+    }
+
+    .site-header .site-navbar .icon {
+        margin: 0 auto;
+    }
+
+    .site-main .top .media {
+        display: none;
+    }
+
+    .site-main .middle .flex-container,
+    .site-main .bottom {
+        flex-direction: column;
+    }
+}

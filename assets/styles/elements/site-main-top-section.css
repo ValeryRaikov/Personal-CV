@@ -1,0 +1,8 @@
+.site-main .top {
+    display: flex;
+    position: relative;
+    min-height: 15em;
+    background: linear-gradient(110.2deg, rgb(54, 197, 240) 8.2%, rgb(74, 21, 75) 92.4%);
+    margin-bottom: 3em;
+    border-radius: 0.3em;
+}
